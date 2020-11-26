@@ -127,17 +127,20 @@ select
     color: lid42515f; 
     background-color: transparent; 
 }
-.buttonParent{
+/* UC 7 */
+.button-content 
+{
     display: flex;
     margin-bottom: 10px;
-    justify-content: space-between;
+    Justify-content: space-between;
     margin-top: 20px;
 }
-.button{
+.button
+{
     font-size: 20px;
     font-family: Roboto;
-    letter-spacing: 0px;
-    color: #42515f;
+    letter-spacing: 0px; 
+    color: #42515f; 
     opacity: 1;
     background: transparent;
     border: none;
@@ -147,12 +150,24 @@ select
     border: 1px solid #707070;
     cursor: pointer;
 }
-.submitButton{    
-    background-color: #f5f5f5;
+.submitButton 
+{
+    border: 1px solid #969696;
+    border-radius: 5px;
+    background-color: #E2E2E2;
     margin-right: 30px;
 }
-.cancelButton{
-    text-decoration: none;
-    background-color: #f5f5f5;
+.cancelButton 
+{
+    border: 1px solid #969696;
+    border-radius: 5px;
+    background-color: #E2E2E2;
+    text-decoration: none; 
     text-align: center;
+}
+.resetButton
+{
+    border: 1px solid #969696;
+    border-radius: 5px;
+    background-color: #E2E2E2;
 }
